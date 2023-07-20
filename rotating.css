@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+.squarered {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+ 
+  position: relative;
+  animation: rotate 2s infinite linear;
+  margin-left: 4em;
+}
+.squareblue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+ 
+  position: relative;
+  animation: rotate 1s infinite linear;
+  margin-left: 4em;
+}
+.squareyellow{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+   
+    position: relative;
+    animation: rotate 1.5s infinite linear;
+    margin-left: 4em;
+}
+.squaregreen{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+   
+    position: relative;
+    animation: rotate 1.2s infinite linear;
+    margin-left: 4em;
+}
+.squareorange{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+   
+    position: relative;
+    animation: rotate 1.8s infinite linear;
+    margin-left: 4em;
+}
+.squarepurple{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+   
+    position: relative;
+    animation: rotate 1.4s infinite linear;
+    margin-left: 4em;
+}
+.squarepink{
+    background-color: rgb(199, 11, 105);
+    width: 100px;
+    height: 100px;
+   
+    position: relative;
+    animation: rotate .2s infinite linear;
+    margin-left: 4em;
+}
+.squareblack{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+   
+    position: relative;
+    animation: rotate .2s infinite linear;
+    margin-left: 4em;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
